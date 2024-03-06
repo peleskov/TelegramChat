@@ -1,0 +1,96 @@
+/* Grid */
+.telegramchat-telegramchat-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.telegramchat-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.telegramchat-row-actions li { float: left; }
+ul.telegramchat-row-actions .telegramchat-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.telegramchat-row-actions .actions-menu { width: 40px; }
+ul.telegramchat-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.telegramchat-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.telegramchat-btn:focus, .telegramchat-btn:active:focus, .telegramchat-btn.active:focus, .telegramchat-btn.focus, .telegramchat-btn:active.focus, .telegramchat-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.telegramchat-btn:hover, .telegramchat-btn:focus, .telegramchat-btn.focus { color: #333; text-decoration: none }
+.telegramchat-btn:active, .telegramchat-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.telegramchat-btn.disabled, .telegramchat-btn[disabled], fieldset[disabled] .telegramchat-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.telegramchat-btn.disabled, fieldset[disabled] a.telegramchat-btn { pointer-events: none }
+.telegramchat-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.telegramchat-btn-default:focus, .telegramchat-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.telegramchat-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.telegramchat-btn-default:active, .telegramchat-btn-default.active, .open > .dropdown-toggle.telegramchat-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.telegramchat-btn-default:active:hover, .telegramchat-btn-default.active:hover, .open > .dropdown-toggle.telegramchat-btn-default:hover, .telegramchat-btn-default:active:focus, .telegramchat-btn-default.active:focus, .open > .dropdown-toggle.telegramchat-btn-default:focus, .telegramchat-btn-default:active.focus, .telegramchat-btn-default.active.focus, .open > .dropdown-toggle.telegramchat-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.telegramchat-btn-default:active, .telegramchat-btn-default.active, .open > .dropdown-toggle.telegramchat-btn-default { background-image: none }
+.telegramchat-btn-default.disabled:hover, .telegramchat-btn-default[disabled]:hover, fieldset[disabled] .telegramchat-btn-default:hover, .telegramchat-btn-default.disabled:focus, .telegramchat-btn-default[disabled]:focus, fieldset[disabled] .telegramchat-btn-default:focus, .telegramchat-btn-default.disabled.focus, .telegramchat-btn-default[disabled].focus, fieldset[disabled] .telegramchat-btn-default.focus { background-color: #fff; border-color: #ccc }
+.telegramchat-btn-default .badge { color: #fff; background-color: #333 }
+.telegramchat-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.telegramchat-btn-primary:focus, .telegramchat-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.telegramchat-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.telegramchat-btn-primary:active, .telegramchat-btn-primary.active, .open > .dropdown-toggle.telegramchat-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.telegramchat-btn-primary:active:hover, .telegramchat-btn-primary.active:hover, .open > .dropdown-toggle.telegramchat-btn-primary:hover, .telegramchat-btn-primary:active:focus, .telegramchat-btn-primary.active:focus, .open > .dropdown-toggle.telegramchat-btn-primary:focus, .telegramchat-btn-primary:active.focus, .telegramchat-btn-primary.active.focus, .open > .dropdown-toggle.telegramchat-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.telegramchat-btn-primary:active, .telegramchat-btn-primary.active, .open > .dropdown-toggle.telegramchat-btn-primary { background-image: none }
+.telegramchat-btn-primary.disabled:hover, .telegramchat-btn-primary[disabled]:hover, fieldset[disabled] .telegramchat-btn-primary:hover, .telegramchat-btn-primary.disabled:focus, .telegramchat-btn-primary[disabled]:focus, fieldset[disabled] .telegramchat-btn-primary:focus, .telegramchat-btn-primary.disabled.focus, .telegramchat-btn-primary[disabled].focus, fieldset[disabled] .telegramchat-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.telegramchat-btn-primary .badge { color: #337ab7; background-color: #fff }
+.telegramchat-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.telegramchat-btn-success:focus, .telegramchat-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.telegramchat-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.telegramchat-btn-success:active, .telegramchat-btn-success.active, .open > .dropdown-toggle.telegramchat-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.telegramchat-btn-success:active:hover, .telegramchat-btn-success.active:hover, .open > .dropdown-toggle.telegramchat-btn-success:hover, .telegramchat-btn-success:active:focus, .telegramchat-btn-success.active:focus, .open > .dropdown-toggle.telegramchat-btn-success:focus, .telegramchat-btn-success:active.focus, .telegramchat-btn-success.active.focus, .open > .dropdown-toggle.telegramchat-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.telegramchat-btn-success:active, .telegramchat-btn-success.active, .open > .dropdown-toggle.telegramchat-btn-success { background-image: none }
+.telegramchat-btn-success.disabled:hover, .telegramchat-btn-success[disabled]:hover, fieldset[disabled] .telegramchat-btn-success:hover, .telegramchat-btn-success.disabled:focus, .telegramchat-btn-success[disabled]:focus, fieldset[disabled] .telegramchat-btn-success:focus, .telegramchat-btn-success.disabled.focus, .telegramchat-btn-success[disabled].focus, fieldset[disabled] .telegramchat-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.telegramchat-btn-success .badge { color: #5cb85c; background-color: #fff }
+.telegramchat-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.telegramchat-btn-info:focus, .telegramchat-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.telegramchat-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.telegramchat-btn-info:active, .telegramchat-btn-info.active, .open > .dropdown-toggle.telegramchat-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.telegramchat-btn-info:active:hover, .telegramchat-btn-info.active:hover, .open > .dropdown-toggle.telegramchat-btn-info:hover, .telegramchat-btn-info:active:focus, .telegramchat-btn-info.active:focus, .open > .dropdown-toggle.telegramchat-btn-info:focus, .telegramchat-btn-info:active.focus, .telegramchat-btn-info.active.focus, .open > .dropdown-toggle.telegramchat-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.telegramchat-btn-info:active, .telegramchat-btn-info.active, .open > .dropdown-toggle.telegramchat-btn-info { background-image: none }
+.telegramchat-btn-info.disabled:hover, .telegramchat-btn-info[disabled]:hover, fieldset[disabled] .telegramchat-btn-info:hover, .telegramchat-btn-info.disabled:focus, .telegramchat-btn-info[disabled]:focus, fieldset[disabled] .telegramchat-btn-info:focus, .telegramchat-btn-info.disabled.focus, .telegramchat-btn-info[disabled].focus, fieldset[disabled] .telegramchat-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.telegramchat-btn-info .badge { color: #5bc0de; background-color: #fff }
+.telegramchat-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.telegramchat-btn-warning:focus, .telegramchat-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.telegramchat-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.telegramchat-btn-warning:active, .telegramchat-btn-warning.active, .open > .dropdown-toggle.telegramchat-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.telegramchat-btn-warning:active:hover, .telegramchat-btn-warning.active:hover, .open > .dropdown-toggle.telegramchat-btn-warning:hover, .telegramchat-btn-warning:active:focus, .telegramchat-btn-warning.active:focus, .open > .dropdown-toggle.telegramchat-btn-warning:focus, .telegramchat-btn-warning:active.focus, .telegramchat-btn-warning.active.focus, .open > .dropdown-toggle.telegramchat-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.telegramchat-btn-warning:active, .telegramchat-btn-warning.active, .open > .dropdown-toggle.telegramchat-btn-warning { background-image: none }
+.telegramchat-btn-warning.disabled:hover, .telegramchat-btn-warning[disabled]:hover, fieldset[disabled] .telegramchat-btn-warning:hover, .telegramchat-btn-warning.disabled:focus, .telegramchat-btn-warning[disabled]:focus, fieldset[disabled] .telegramchat-btn-warning:focus, .telegramchat-btn-warning.disabled.focus, .telegramchat-btn-warning[disabled].focus, fieldset[disabled] .telegramchat-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.telegramchat-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.telegramchat-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.telegramchat-btn-danger:focus, .telegramchat-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.telegramchat-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.telegramchat-btn-danger:active, .telegramchat-btn-danger.active, .open > .dropdown-toggle.telegramchat-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.telegramchat-btn-danger:active:hover, .telegramchat-btn-danger.active:hover, .open > .dropdown-toggle.telegramchat-btn-danger:hover, .telegramchat-btn-danger:active:focus, .telegramchat-btn-danger.active:focus, .open > .dropdown-toggle.telegramchat-btn-danger:focus, .telegramchat-btn-danger:active.focus, .telegramchat-btn-danger.active.focus, .open > .dropdown-toggle.telegramchat-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.telegramchat-btn-danger:active, .telegramchat-btn-danger.active, .open > .dropdown-toggle.telegramchat-btn-danger { background-image: none }
+.telegramchat-btn-danger.disabled:hover, .telegramchat-btn-danger[disabled]:hover, fieldset[disabled] .telegramchat-btn-danger:hover, .telegramchat-btn-danger.disabled:focus, .telegramchat-btn-danger[disabled]:focus, fieldset[disabled] .telegramchat-btn-danger:focus, .telegramchat-btn-danger.disabled.focus, .telegramchat-btn-danger[disabled].focus, fieldset[disabled] .telegramchat-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.telegramchat-btn-danger .badge { color: #d9534f; background-color: #fff }
+.telegramchat-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.telegramchat-btn-link, .telegramchat-btn-link:active, .telegramchat-btn-link.active, .telegramchat-btn-link[disabled], fieldset[disabled] .telegramchat-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.telegramchat-btn-link, .telegramchat-btn-link:hover, .telegramchat-btn-link:focus, .telegramchat-btn-link:active { border-color: transparent }
+.telegramchat-btn-link:hover, .telegramchat-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.telegramchat-btn-link[disabled]:hover, fieldset[disabled] .telegramchat-btn-link:hover, .telegramchat-btn-link[disabled]:focus, fieldset[disabled] .telegramchat-btn-link:focus { color: #777; text-decoration: none }
+.telegramchat-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.telegramchat-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.telegramchat-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.telegramchat-btn-block { display: block; width: 100% }
+.telegramchat-btn-block + .telegramchat-btn-block { margin-top: 5px }
